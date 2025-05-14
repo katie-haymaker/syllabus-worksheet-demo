@@ -18,7 +18,11 @@
             output-filename="worksheets.pdf" publication="publication_worksheets.ptx" />
     <target name="worksheets-latex" format="latex" source="worksheets/main.ptx"
             output-filename="worksheets.tex" publication="publication_worksheets.ptx" />            
-  </targets>
+  <target name="worksheet-canvas" source="worksheets/main.ptx" format="html" xsl="custom-html.xsl" 
+            compression="scorm" publication="publication_scorm_syllabus.ptx" 
+            output-filename="worksheets-solutions.zip" />
+          </targets>
+
 </project>
 
 

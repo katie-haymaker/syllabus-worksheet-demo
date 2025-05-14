@@ -17,7 +17,8 @@
       
       <xi:include href="./wkst-relns-digraphs.ptx" />
       <xi:include href="./wkst-eqrel-counting.ptx" />
-      
+      <xi:include href="./wkst-first-day.ptx" />
+
     </section>
     <solutions worksheet="solution">
       <title>Solutions to Worksheets</title>
