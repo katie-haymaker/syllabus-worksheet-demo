@@ -21,6 +21,16 @@
   <target name="worksheet-canvas" source="worksheets/main.ptx" format="html" xsl="custom-html.xsl" 
             compression="scorm" publication="publication_scorm_syllabus.ptx" 
             output-filename="worksheets-solutions.zip" />
+            <target name="syllabus-web" source="syllabus/syllabus.ptx" format="html" xsl="custom-html.xsl"
+            publication="publication_syllabus.ptx" 
+            deploy-dir="syllabus" />
+    <target name="syllabus-canvas-VU" source="syllabus/syllabus-villanova.ptx" format="html" xsl="custom-html.xsl" 
+            compression="scorm" publication="publication_scorm_syllabus.ptx" 
+            output-filename="math240-spring2025-syllabus.zip" />
+    <target name="syllabus-print-VU" source="syllabus/syllabus-villanova.ptx" format="pdf" output-filename="math2500-fall2025-syllabus.pdf"       
+            publication="publication_latex_syllabus.ptx" />
+    <target name="syllabus-latex-VU" source="syllabus/syllabus-villanova.ptx" format="latex" output-filename="math2500-fall2025-syllabus.tex" 
+            publication="publication_latex_syllabus.ptx" />
           </targets>
 
 </project>
